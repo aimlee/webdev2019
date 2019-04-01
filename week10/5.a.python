@@ -1,0 +1,20 @@
+def min(a,b,c,d):
+    if a<b and a<c and a<d:
+        print a
+    elif b<a and b<c and b<d:
+        print b
+    elif c<a and c<b and c<d:
+        print c
+    elif d<a and d<a and d<b:
+        print d
+
+
+
+s = raw_input()
+a = [int(x) for x in s.split()]
+a1 = a[0]
+a2=a[1]
+a3=a[2]
+a0=a[3]
+
+min(a1,a2,a3,a0)

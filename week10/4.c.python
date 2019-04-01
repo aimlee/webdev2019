@@ -1,0 +1,15 @@
+
+c=0
+d=1
+b = int(input())
+sum=0
+s= raw_input()
+a=[int(x) for x in s.split(' ')]
+
+
+while d<len(a):
+    if a[c]<a[d]:
+        sum=sum+1
+    c=c+1
+    d=d+1
+print(sum)

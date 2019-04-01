@@ -1,0 +1,13 @@
+def xor(a,b):
+    c=(a+b)%2
+    print(c)
+   
+
+
+
+s = raw_input()
+a = [int(x) for x in s.split()]
+a0=a[0]
+a1 = a[1]
+
+xor(a0,a1)

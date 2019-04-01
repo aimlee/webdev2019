@@ -1,0 +1,8 @@
+
+a = int(input())
+b = a
+while a > 1:
+    if(b%a==0):
+        min = a
+    a=a-1
+print(min)

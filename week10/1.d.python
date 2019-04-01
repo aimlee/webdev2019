@@ -1,0 +1,4 @@
+v = input()
+t= input()
+
+    print((v*t)%109)

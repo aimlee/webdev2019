@@ -1,0 +1,9 @@
+import math
+a = int(input())
+b = int(input())
+while a <= b:
+    j = math.sqrt(a)
+    j  = int(j)
+    if j*j == a:
+        print(a)
+    a=a+1

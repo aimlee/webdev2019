@@ -1,0 +1,12 @@
+bool xor(a,b):
+    print(a+b%2)
+   
+
+
+
+s = raw_input()
+a = [int(x) for x in s.split()]
+a0=a[0]
+a1 = a[1]
+
+pow(a1,a0)

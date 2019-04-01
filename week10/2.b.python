@@ -1,0 +1,11 @@
+
+a = int(input())
+
+a1= bool(a%4==0)
+a2 = bool(a%100!=0)
+a3 = bool (a%400==0)
+
+if a1 and a2 or a3:
+    print("YES")
+else:
+    print("NO")
